@@ -11,6 +11,9 @@ func add(num1 float64, num2 float64) float64 {
 func subtract(num1 float64, num2 float64) float64 {
 	return num1 - num2
 }
+func multiply(num1 float64, num2 float64) float64 {
+	return num1 * num2
+}
 
 func main() {
 	fmt.Println(division(506, 22))
